@@ -331,6 +331,77 @@ text-align: center;
     text-align: center;
 }
 
+.seguridad {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+}
+
+.iframe2 {
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.TraduJur {
+    border: #331800 solid 3px;
+    width: fit-content;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.TraduJurDt {
+    text-align: left;
+    margin-left: 1%;
+}
+
+.TraduJurDd {
+    text-align: left;
+    margin-left: 1%;
+}
+
+.TraduEmp {
+    border: #331800 solid 3px;
+    width: fit-content;
+    margin-bottom: 2%;
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.TraduEmpDt {
+    text-align: left;
+    margin-left: 1%;
+}
+
+.TraduEmpDd {
+    text-align: left;
+    margin-left: 1%;
+}
+
+.TraduMed {
+    border: #331800 solid 3px;
+    width: fit-content;
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.TraduMedDt {
+    text-align: left;
+    margin-left: 1%;
+}
+
+.TraduMedDd {
+    text-align: left;
+    margin-left: 1%;
+}
+
 @media screen and (max-width: 320px) {
     
     body {
