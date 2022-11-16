@@ -568,4 +568,12 @@ iframe {
         height: auto;
         margin-bottom: 60px;
       }
+      
+      html, body {
+        overflow-x: hidden;
+      }
+      
+      body {
+        position: relative
+      }
 }
