@@ -1,0 +1,572 @@
+body {
+  background-color: burlywood;
+  padding: 150px;
+}
+
+.logo {
+  width: 10%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #331800;
+  width: 100%;
+  padding: 50px;
+}
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  color: white;
+  display: block;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.menu ul li a:hover {
+  background-color: #70cce1;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: 13220;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+img {
+  height: 25%;
+  width: 25%;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  color: 13220;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.foto1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+}
+
+#Residencia h2 {
+  border: solid 2px black;
+  display: inline;
+}
+
+#Residencia img {
+  padding-top: 20px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#StudyAbroad h2 {
+  border: solid 2px black;
+  display: inline;
+}
+
+#StudyAbroad img {
+  padding-top: 20px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#Visa h2 {
+  border: solid 2px black;
+  display: inline;
+}
+
+#Visa img {
+  padding-top: 20px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#WorkAbroad h2 {
+  border: solid 2px black;
+  display: inline;
+}
+
+#WorkAbroad img {
+  padding-top: 20px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.necesidad {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.direcciones, .disclaimer {
+  margin-top: 50px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.disclaimer {
+  margin-top: 5px;
+}
+
+dt {
+  text-align: left;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+dd {
+  text-align: left;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.encabezado {
+  text-align: left;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+.cuerpo {
+  text-align: left;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.forma {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.servicio .seguras {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.servicio p {
+  font-size: 19px;
+  text-align: center;
+}
+
+.consulta {
+  display: inline-flex;
+  border: #331800 solid 3px;
+  grid-template-rows: 1fr 2fr;
+  flex-flow: column;
+  margin-bottom: 27px;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.consulta h2 {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.consulta p {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.ayudarle {
+  text-align: left;
+  margin-bottom: 17px;
+}
+
+.sirvase {
+  text-align: left;
+  margin-top: 1px;
+}
+
+.Residencia {
+  grid-area: Residencia;
+}
+
+.ResidenciaH2 {
+  font-size: 30px;
+  border: black solid 2px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.ResidenciaImg {
+  width: 400px;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.StudyAbroad {
+  grid-area: StudyAbroad;
+}
+
+.StudyAbroadH2 {
+  font-size: 30px;
+  border: black solid 2px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.StudyAbroadImg {
+  width: 400px;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.Visa {
+  grid-area: Visa;
+}
+
+.VisaH2 {
+  font-size: 30px;
+  border: black solid 2px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.VisaImg {
+  width: 400px;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.WorkAbroad {
+  grid-area: WorkAbroad;
+}
+
+.WorkAbroadH2 {
+  font-size: 30px;
+  border: black solid 2px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.WorkAbroadImg {
+  width: 400px;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.tramites {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "Residencia StudyAbroad" "Visa WorkAbroad";
+  justify-items: center;
+}
+
+.necesidad {
+  display: flex;
+  flex-direction: column;
+}
+
+.puntual {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#multi {
+  width: 40%;
+}
+
+.mailContacto {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.adjuntar {
+  font-weight: bold;
+}
+
+.formacionH2 {
+  display: block;
+  font-weight: bold;
+  font-size: 30px;
+  border: black 2px solid;
+  background-color: rgb(113, 81, 10);
+  text-align: center;
+}
+
+.qualificationsH2 {
+  display: block;
+  font-weight: bold;
+  font-size: 30px;
+  border: black 2px solid;
+  background-color: rgb(113, 81, 10);
+  text-align: center;
+}
+
+.fotoDePerfil {
+  text-align: center;
+}
+
+.seguridad {
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+}
+
+.iframe2 {
+  max-width: 80%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.TraduJur {
+  border: #331800 solid 3px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  max-width: 80%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.TraduJurDt {
+  text-align: left;
+  margin-left: 1%;
+}
+
+.TraduJurDd {
+  text-align: left;
+  margin-left: 1%;
+}
+
+.TraduEmp {
+  border: #331800 solid 3px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 2%;
+  max-width: 80%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.TraduEmpDt {
+  text-align: left;
+  margin-left: 1%;
+}
+
+.TraduEmpDd {
+  text-align: left;
+  margin-left: 1%;
+}
+
+.TraduMed {
+  border: #331800 solid 3px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 80%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.TraduMedDt {
+  text-align: left;
+  margin-left: 1%;
+}
+
+.TraduMedDd {
+  text-align: left;
+  margin-left: 1%;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 30px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    width: 20px;
+    height: auto;
+    padding: 7px;
+    align-self: center;
+    margin-top: 0;
+  }
+  .menu {
+    margin: auto;
+    padding: 0%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    align-self: center;
+  }
+  .menu ul {
+    list-style: none;
+    display: inline-block;
+    padding: auto;
+  }
+  .menu ul li {
+    display: block;
+  }
+  .menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 23px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .foto1 {
+    width: 110px;
+  }
+  .servicio .seguras {
+    font-size: 12px;
+  }
+  .servicio p {
+    font-size: 8px;
+  }
+  .consulta h2 {
+    font-size: 12px;
+  }
+  .consulta p {
+    font-size: 9px;
+  }
+  .formulario {
+    font-size: 9px;
+  }
+  .inputMail {
+    width: 50%;
+    height: 6px;
+  }
+  .necesidad {
+    width: 200%;
+  }
+  .adjuntar input {
+    margin-top: 5px;
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 7px;
+  }
+  .direcciones, .disclaimer {
+    font-size: 6px;
+  }
+  .etapas {
+    font-size: 14px;
+  }
+  .tramites {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "Residencia StudyAbroad" "Visa WorkAbroad";
+    justify-items: center;
+  }
+  .Residencia {
+    grid-area: Residencia;
+  }
+  .ResidenciaH2 {
+    font-weight: bold;
+    font-size: 12px;
+    border: black solid 2px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .ResidenciaImg {
+    width: 200px;
+    height: auto;
+    margin-bottom: 60px;
+  }
+  .StudyAbroad {
+    grid-area: StudyAbroad;
+  }
+  .StudyAbroadH2 {
+    font-weight: bold;
+    font-size: 12px;
+    border: black solid 2px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .StudyAbroadImg {
+    width: 200px;
+    height: auto;
+    margin-bottom: 60px;
+  }
+  .Visa {
+    grid-area: Visa;
+  }
+  .VisaH2 {
+    font-weight: bold;
+    font-size: 12px;
+    border: black solid 2px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .VisaImg {
+    width: 200px;
+    height: auto;
+    margin-bottom: 60px;
+  }
+  .WorkAbroad {
+    grid-area: WorkAbroad;
+  }
+  .WorkAbroadH2 {
+    font-weight: bold;
+    font-size: 12px;
+    border: black solid 2px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .WorkAbroadImg {
+    width: 200px;
+    height: auto;
+    margin-bottom: 60px;
+  }
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+}/*# sourceMappingURL=main.css.map */
