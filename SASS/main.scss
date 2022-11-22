@@ -1,3 +1,5 @@
+@import "base";
+
 body {
     background-color:burlywood;
     padding: 150px;
@@ -565,7 +567,7 @@ iframe {
         font-size: 12px;
         border: black solid 2px;
         width: fit-content;
-      }
+      } 
       .WorkAbroadImg {
         width: 200px;
         height: auto;
