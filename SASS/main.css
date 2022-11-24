@@ -210,11 +210,17 @@ dd {
 
 .Residencia {
   grid-area: Residencia;
+  border: #331800 solid 4px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 25px;
+  background-color: gray;
 }
 
 .ResidenciaH2 {
   font-size: 30px;
-  border: black solid 2px;
+  background-color: rgb(226, 224, 221);
+  border: black solid 1px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -228,11 +234,17 @@ dd {
 
 .StudyAbroad {
   grid-area: StudyAbroad;
+  border: #331800 solid 4px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 25px;
+  background-color: gray;
 }
 
 .StudyAbroadH2 {
   font-size: 30px;
-  border: black solid 2px;
+  background-color: rgb(226, 224, 221);
+  border: black solid 1px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -246,11 +258,16 @@ dd {
 
 .Visa {
   grid-area: Visa;
+  border: #331800 solid 4px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: gray;
 }
 
 .VisaH2 {
   font-size: 30px;
-  border: black solid 2px;
+  background-color: rgb(226, 224, 221);
+  border: black solid 1px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -264,11 +281,16 @@ dd {
 
 .WorkAbroad {
   grid-area: WorkAbroad;
+  border: #331800 solid 4px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: gray;
 }
 
 .WorkAbroadH2 {
   font-size: 30px;
-  border: black solid 2px;
+  background-color: rgb(226, 224, 221);
+  border: black solid 1px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
