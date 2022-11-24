@@ -1,3 +1,53 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 body {
   background-color: burlywood;
   padding: 150px;
@@ -17,10 +67,14 @@ body {
   font-size: 13px;
   font-weight: bold;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.menu {
   background-color: #331800;
   width: 100%;
   padding: 50px;
 }
+
 .menu ul {
   list-style: none;
   margin: 0;
@@ -29,9 +83,11 @@ body {
   justify-content: space-between;
   align-content: center;
 }
+
 .menu ul li {
   display: inline-block;
 }
+
 .menu ul li a {
   color: white;
   display: block;
@@ -39,6 +95,7 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+
 .menu ul li a:hover {
   background-color: #70cce1;
 }
@@ -67,6 +124,28 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.servicio h2 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.servicio p {
+  font-size: 19px;
+  text-align: center;
+}
+
+.consulta h2 {
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.consulta p {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #footer {
@@ -168,17 +247,6 @@ dd {
   text-decoration: underline;
 }
 
-.servicio .seguras {
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: bold;
-  font-size: 25px;
-}
-.servicio p {
-  font-size: 19px;
-  text-align: center;
-}
-
 .consulta {
   display: inline-flex;
   border: #331800 solid 3px;
@@ -188,14 +256,6 @@ dd {
   margin-top: 15px;
   padding-left: 20px;
   padding-right: 20px;
-}
-.consulta h2 {
-  font-size: 25px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-.consulta p {
-  font-size: 17px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .ayudarle {
@@ -210,17 +270,11 @@ dd {
 
 .Residencia {
   grid-area: Residencia;
-  border: #331800 solid 4px;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 25px;
-  background-color: gray;
 }
 
 .ResidenciaH2 {
   font-size: 30px;
-  background-color: rgb(226, 224, 221);
-  border: black solid 1px;
+  border: black solid 2px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -234,17 +288,11 @@ dd {
 
 .StudyAbroad {
   grid-area: StudyAbroad;
-  border: #331800 solid 4px;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 25px;
-  background-color: gray;
 }
 
 .StudyAbroadH2 {
   font-size: 30px;
-  background-color: rgb(226, 224, 221);
-  border: black solid 1px;
+  border: black solid 2px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -258,16 +306,11 @@ dd {
 
 .Visa {
   grid-area: Visa;
-  border: #331800 solid 4px;
-  padding-left: 10%;
-  padding-right: 10%;
-  background-color: gray;
 }
 
 .VisaH2 {
   font-size: 30px;
-  background-color: rgb(226, 224, 221);
-  border: black solid 1px;
+  border: black solid 2px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -281,16 +324,11 @@ dd {
 
 .WorkAbroad {
   grid-area: WorkAbroad;
-  border: #331800 solid 4px;
-  padding-left: 10%;
-  padding-right: 10%;
-  background-color: gray;
 }
 
 .WorkAbroadH2 {
   font-size: 30px;
-  background-color: rgb(226, 224, 221);
-  border: black solid 1px;
+  border: black solid 2px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -478,7 +516,7 @@ iframe {
   .foto1 {
     width: 110px;
   }
-  .servicio .seguras {
+  .servicio h2 {
     font-size: 12px;
   }
   .servicio p {
