@@ -19,39 +19,37 @@ body {
     font-size: 13px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.menu {
     background-color: #331800;
     width: 100%;
     padding: 50px;
-}
 
-.menu ul {
-list-style: none;
-margin: 0;
-padding: 0;
-display: flex;
-justify-content:space-between;
-align-content: center;
-}
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content:space-between;
+        align-content: center;
 
-.menu ul li {
-    display: inline-block;
-}
+        li {
+            display: inline-block;
 
-.menu ul li a {
-    color: white;
-    display: block;
-    padding: 5px 15px;
-    text-decoration: none;
-    font-size: 17px;
+            a {
+                color: white;
+                display: block;
+                padding: 5px 15px;
+                text-decoration: none;
+                font-size: 20px;
+                border-inline: silver 2px solid;    
+            }
 
-}
+            a:hover{
+                background-color: #70cce1;
+        }
+        }
+        }
+        }
 
-.menu ul li a:hover{
-background-color: #70cce1;
-}
 
 h1 {
     font-size: 55px;
@@ -99,15 +97,7 @@ p {
     }
 
         }
-.consulta h2 {
-    font-size: 22px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
-.consulta p {
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 #footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -188,19 +178,61 @@ dd {
     margin-bottom: 10px;
 }
 
-.encabezado {
+.Emilia {
+
+    border: #331800 4px solid;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(116, 116, 179);
+    margin-bottom: 25px;
+    margin-left: 7%;
+    margin-right: 7%;
+
+
+.cuerpoEmilia {
+    text-align: left;
+    font-size: x-large;
+    margin-bottom: 15px; 
+    }
+
+    
+.firmaEmilia {
     text-align: left;
     font-weight: bold;
-    text-decoration: underline;
-    font-size: larger;
-    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 5px
 }
 
-.cuerpo {
-    text-align: left;
-    font-size: large;
-    margin-bottom: 10px;   
 }
+
+.Lucia {
+    @extend .Emilia;
+    background-color: blue;
+    
+
+    .cuerpoLucia {
+        @extend .cuerpoEmilia;
+    }
+
+    .firmaLucia {
+        @extend .firmaEmilia;
+    }
+}
+
+.Approach {
+    @extend .Emilia;
+    background-color:aquamarine;
+
+    .miApproach {
+        @extend .cuerpoEmilia;
+    }
+
+    .FirmaApproach {
+        @extend .firmaEmilia;
+    }
+}
+
 
 .forma {
     text-align: center;
@@ -224,6 +256,7 @@ dd {
         margin-bottom: 17px;
         margin-top: 7px;
         font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
     .sirvase {
@@ -231,6 +264,7 @@ dd {
         text-align: left;
         margin-top: 1px;
         margin-bottom: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
 }
@@ -448,58 +482,75 @@ iframe {
         align-self: center;
         margin-top: 0;
     }
+    
     .menu {
         margin: auto;
         padding: 0%;
         width: fit-content;
         align-self: center;
-    }
 
-    .menu ul{
+        ul{
             list-style: none;
             display: inline-block;
             padding: auto;
+
+            li{
+                display: block;
+                
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 8px;
+                    text-align: center;
+                }
+
+            }
+
          }
-    
-    .menu ul li{
-        display: block;
-             
-    }
-   
-    .menu ul li a {
-        color: white;
-        text-decoration: none;
-        font-size: 3px;
-        text-align: center;
+
     }
 
     h1 {
-        font-size: 23px;
+        font-size: 27px;
         text-align: center;
         margin-left: 10%;
         margin-right: 10%;
     }
 
     .foto1 {
-        width: 110px;
+        width: 180px;
+    }
+    
+   .servicio {
+    
+    .seguras {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top:10px;
+    margin-bottom: 10px;
+
     }
 
-    .servicio h2 {
-        font-size: 12px;
+    .materia {
+    font-size: 14px;
+    text-align: center;
     }
 
-    .servicio p {
-        font-size: 8px;
-    }
+        }
 
-    .consulta h2 {
-        font-size: 12px;
+    .consulta {
 
-    }    
+        .ayudarle {
+            font-size: 12px;
+        }    
+        
+        .sirvase {
+            font-size: 9px;
+        }
 
-    .consulta p {
-        font-size: 9px;
-    }
+    } 
 
     .formulario {
         font-size: 9px;
