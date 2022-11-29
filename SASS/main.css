@@ -87,7 +87,7 @@ body {
   display: block;
   padding: 5px 15px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 19px;
   border-inline: silver 2px solid;
 }
 .menu ul li a:hover {
@@ -96,6 +96,7 @@ body {
 
 h1 {
   font-size: 55px;
+  font-weight: bold;
   text-align: center;
   color: 13220;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -200,20 +201,6 @@ p {
   margin-top: 5px;
 }
 
-dt {
-  text-align: left;
-  font-weight: bold;
-  text-decoration: underline;
-  font-size: larger;
-  margin-bottom: 10px;
-}
-
-dd {
-  text-align: left;
-  font-size: large;
-  margin-bottom: 10px;
-}
-
 .Emilia, .Approach, .Lucia {
   border: #331800 4px solid;
   padding: 10px;
@@ -274,16 +261,29 @@ dd {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.etapas {
+  border: #331800 3px solid;
+  background-color: silver;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: sans-serif;
+  border: radius 2px;
+}
+
 .Residencia {
   grid-area: Residencia;
 }
 
 .ResidenciaH2 {
-  font-size: 30px;
-  border: black solid 2px;
+  border: #331800 3px solid;
+  background-color: silver;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  font-family: sans-serif;
+  border: radius 2px;
+  font-size: 30px;
 }
 
 .ResidenciaImg {
@@ -297,11 +297,14 @@ dd {
 }
 
 .StudyAbroadH2 {
-  font-size: 30px;
-  border: black solid 2px;
+  border: #331800 3px solid;
+  background-color: silver;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  font-family: sans-serif;
+  border: radius 2px;
+  font-size: 30px;
 }
 
 .StudyAbroadImg {
@@ -315,11 +318,14 @@ dd {
 }
 
 .VisaH2 {
-  font-size: 30px;
-  border: black solid 2px;
+  border: #331800 3px solid;
+  background-color: silver;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  font-family: sans-serif;
+  border: radius 2px;
+  font-size: 30px;
 }
 
 .VisaImg {
@@ -333,11 +339,14 @@ dd {
 }
 
 .WorkAbroadH2 {
-  font-size: 30px;
-  border: black solid 2px;
+  border: #331800 3px solid;
+  background-color: silver;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  font-family: sans-serif;
+  border: radius 2px;
+  font-size: 30px;
 }
 
 .WorkAbroadImg {
@@ -401,11 +410,26 @@ dd {
 }
 
 .seguridad {
-  text-align: center;
+  border: #331800 3px solid;
+  background-color: silver;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: sans-serif;
+  border: radius 2px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  color: rgb(59, 38, 38);
+  padding: 5px;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  font-weight: bold;
 }
 
 iframe {
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .iframe2 {
@@ -419,7 +443,7 @@ iframe {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin-top: 3%;
+  margin-top: 15px;
   margin-bottom: 2%;
   max-width: 80%;
   margin-left: 20%;
@@ -427,13 +451,29 @@ iframe {
 }
 
 .TraduJurDt {
+  border: #331800 3px solid;
+  background-color: silver;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: sans-serif;
+  border: radius 2px;
   text-align: left;
   margin-left: 1%;
+  margin-top: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-radius: 20px;
 }
 
 .TraduJurDd {
   text-align: left;
-  margin-left: 1%;
+  margin-left: 2%;
+  font-size: large;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
 }
 
 .TraduEmp {
@@ -448,13 +488,29 @@ iframe {
 }
 
 .TraduEmpDt {
+  border: #331800 3px solid;
+  background-color: silver;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: sans-serif;
+  border: radius 2px;
   text-align: left;
   margin-left: 1%;
+  margin-top: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-radius: 20px;
 }
 
 .TraduEmpDd {
   text-align: left;
-  margin-left: 1%;
+  margin-left: 2%;
+  font-size: large;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
 }
 
 .TraduMed {
@@ -468,13 +524,29 @@ iframe {
 }
 
 .TraduMedDt {
+  border: #331800 3px solid;
+  background-color: silver;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: sans-serif;
+  border: radius 2px;
   text-align: left;
   margin-left: 1%;
+  margin-top: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-radius: 20px;
 }
 
 .TraduMedDd {
   text-align: left;
-  margin-left: 1%;
+  margin-left: 2%;
+  font-size: large;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 480px) {
@@ -516,6 +588,7 @@ iframe {
   }
   h1 {
     font-size: 27px;
+    font-weight: bold;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -641,5 +714,136 @@ iframe {
   }
   body {
     position: relative;
+  }
+  .seguridad {
+    border: #331800 3px solid;
+    background-color: silver;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-family: sans-serif;
+    border: radius 2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    color: rgb(59, 38, 38);
+    padding: 5px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .TraduJur {
+    border: #331800 solid 3px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 15px;
+    margin-bottom: 2%;
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 10px;
+  }
+  .TraduJurDt {
+    border: #331800 3px solid;
+    background-color: silver;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-family: sans-serif;
+    border: radius 2px;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 3px;
+    border-radius: 20px;
+  }
+  .TraduJurDd {
+    text-align: left;
+    margin-left: 2%;
+    font-size: large;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+  }
+  .TraduEmp {
+    border: #331800 solid 3px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 15px;
+    margin-bottom: 2%;
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 10px;
+  }
+  .TraduEmpDt {
+    border: #331800 3px solid;
+    background-color: silver;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-family: sans-serif;
+    border: radius 2px;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 3px;
+    border-radius: 20px;
+  }
+  .TraduEmpDd {
+    text-align: left;
+    margin-left: 2%;
+    font-size: large;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+  }
+  .TraduMed {
+    border: #331800 solid 3px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 15px;
+    margin-bottom: 2%;
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 10px;
+  }
+  .TraduMedDt {
+    border: #331800 3px solid;
+    background-color: silver;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-family: sans-serif;
+    border: radius 2px;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 3px;
+    border-radius: 20px;
+  }
+  .TraduMedDd {
+    text-align: left;
+    margin-left: 2%;
+    font-size: large;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+  }
+  iframe {
+    height: 95%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }/*# sourceMappingURL=main.css.map */

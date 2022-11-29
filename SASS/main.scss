@@ -1,5 +1,13 @@
 @import "base";
 
+@mixin square {
+    border: #331800 3px solid;
+    background-color: silver;
+    width: fit-content;
+    font-family: sans-serif;
+    border: radius 2px;
+}
+
 body {
     background-color: burlywood;
     padding: 150px;
@@ -39,7 +47,7 @@ body {
                 display: block;
                 padding: 5px 15px;
                 text-decoration: none;
-                font-size: 20px;
+                font-size: 19px;
                 border-inline: silver 2px solid;    
             }
 
@@ -53,6 +61,7 @@ body {
 
 h1 {
     font-size: 55px;
+    font-weight: bold;
     text-align: center;
     color: 013220;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -164,20 +173,6 @@ p {
     margin-top: 5px;
 }
 
-dt {
-    text-align: left;
-    font-weight: bold;
-    text-decoration: underline;
-    font-size: larger;
-    margin-bottom: 10px;
-}
-
-dd {
-    text-align: left;
-    font-size: large;
-    margin-bottom: 10px;
-}
-
 .Emilia {
 
     border: #331800 4px solid;
@@ -269,15 +264,16 @@ dd {
 
 }
 
-
+.etapas {
+    @include square;
+}
 
   .Residencia {
     grid-area: Residencia;
   }
   .ResidenciaH2 {
+    @include square;
     font-size: 30px;
-    border: black solid 2px;
-    width: fit-content;
   }
   .ResidenciaImg {
     width: 400px;
@@ -289,9 +285,8 @@ dd {
     grid-area: StudyAbroad;
   }
   .StudyAbroadH2 {
+    @include square;
     font-size: 30px;
-    border: black solid 2px;
-    width: fit-content;
   }
   .StudyAbroadImg {
     width: 400px;
@@ -303,9 +298,8 @@ dd {
     grid-area: Visa;
   }
   .VisaH2 {
+    @include square;
     font-size: 30px;
-    border: black solid 2px;
-    width: fit-content;
   }
   .VisaImg {
     width: 400px;
@@ -317,9 +311,8 @@ dd {
     grid-area: WorkAbroad;
   }
   .WorkAbroadH2 {
+    @include square;
     font-size: 30px;
-    border: black solid 2px;
-    width: fit-content;
   }
   .WorkAbroadImg {
     width: 400px;
@@ -396,11 +389,20 @@ text-align: center;
 }
 
 .seguridad {
-    text-align: center;
+    @include square;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    color: rgb(59, 38, 38);
+    padding: 5px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    font-weight: bold;
 }
 
 iframe {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .iframe2 {
@@ -412,7 +414,7 @@ iframe {
 .TraduJur {
     border: #331800 solid 3px;
     width: fit-content;
-    margin-top: 3%;
+    margin-top: 15px;
     margin-bottom: 2%;
     max-width: 80%;
     margin-left: 20%;
@@ -420,13 +422,24 @@ iframe {
 }
 
 .TraduJurDt {
+    @include square;
     text-align: left;
     margin-left: 1%;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 3px;
+    border-radius: 20px;
+
 }
 
 .TraduJurDd {
     text-align: left;
-    margin-left: 1%;
+    margin-left: 2%;
+    font-size: large;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
 
 .TraduEmp {
@@ -439,13 +452,23 @@ iframe {
 }
 
 .TraduEmpDt {
+    @include square;
     text-align: left;
     margin-left: 1%;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 3px;
+    border-radius: 20px;
 }
 
 .TraduEmpDd {
     text-align: left;
-    margin-left: 1%;
+    margin-left: 2%;
+    font-size: large;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
 
 .TraduMed {
@@ -457,14 +480,25 @@ iframe {
 }
 
 .TraduMedDt {
+    @include square;
     text-align: left;
     margin-left: 1%;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 3px;
+    border-radius: 20px;
 }
 
 .TraduMedDd {
     text-align: left;
-    margin-left: 1%;
+    margin-left: 2%;
+    font-size: large;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
+
 
 @media screen and (max-width: 480px) {
     
@@ -512,6 +546,7 @@ iframe {
 
     h1 {
         font-size: 27px;
+        font-weight: bold;
         text-align: center;
         margin-left: 10%;
         margin-right: 10%;
@@ -657,5 +692,117 @@ iframe {
       body {
         position: relative
       }
+
+    .seguridad {
+        @include square;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+        color: rgb(59, 38, 38);
+        padding: 5px;
+        margin-bottom: 12px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    
+    .TraduJur {
+        border: #331800 solid 3px;
+        width: fit-content;
+        margin-top: 15px;
+        margin-bottom: 2%;
+        max-width: 80%;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 10px;
+    }
+    
+    .TraduJurDt {
+        @include square;
+        text-align: left;
+        margin-left: 1%;
+        margin-top: 5px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        padding: 3px;
+        border-radius: 20px;
+    }
+    
+    .TraduJurDd {
+        text-align: left;
+        margin-left: 2%;
+        font-size: large;
+        margin-bottom: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+    }
+    
+    .TraduEmp {
+        border: #331800 solid 3px;
+        width: fit-content;
+        margin-top: 15px;
+        margin-bottom: 2%;
+        max-width: 80%;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 10px;
+    }
+    
+    .TraduEmpDt {
+        @include square;
+        text-align: left;
+        margin-left: 1%;
+        margin-top: 5px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        padding: 3px;
+        border-radius: 20px;
+    }
+    
+    .TraduEmpDd {
+        text-align: left;
+        margin-left: 2%;
+        font-size: large;
+        margin-bottom: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+    }
+    
+    .TraduMed {
+        border: #331800 solid 3px;
+        width: fit-content;
+        margin-top: 15px;
+        margin-bottom: 2%;
+        max-width: 80%;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 10px;
+    }
+    
+    .TraduMedDt {
+        @include square;
+        text-align: left;
+        margin-left: 1%;
+        margin-top: 5px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        padding: 3px;
+        border-radius: 20px;
+    }
+    
+    .TraduMedDd {
+        text-align: left;
+        margin-left: 2%;
+        font-size: large;
+        margin-bottom: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+    }
+    
+    iframe {
+        height: 95%;
+        width:95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
          
 }
