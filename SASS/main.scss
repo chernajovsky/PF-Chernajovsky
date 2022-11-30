@@ -266,58 +266,105 @@ p {
 
 .etapas {
     @include square;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
 }
 
   .Residencia {
     grid-area: Residencia;
+    border: #331800 4px solid;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    
+
   }
   .ResidenciaH2 {
     @include square;
     font-size: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 3px;
   }
   .ResidenciaImg {
     width: 400px;
     height: auto;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
   }
 
   .StudyAbroad {
     grid-area: StudyAbroad;
+    border: #331800 4px solid;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
   }
   .StudyAbroadH2 {
     @include square;
     font-size: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 3px;
   }
   .StudyAbroadImg {
     width: 400px;
     height: auto;
-    margin-bottom: 60px;
+    margin-top: 10%;
+    margin-bottom: 20%;
   }
   
   .Visa {
     grid-area: Visa;
+    margin-top: 30px;
+    border: #331800 4px solid;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+
   }
   .VisaH2 {
     @include square;
     font-size: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 3px;
+    
   }
   .VisaImg {
     width: 400px;
     height: auto;
-    margin-bottom: 60px;
+    margin-top: 5%;
+    margin-bottom: 20%;
   }
 
   .WorkAbroad {
     grid-area: WorkAbroad;
+    margin-top: 30px;
+    border: #331800 4px solid;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
   }
   .WorkAbroadH2 {
     @include square;
     font-size: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 3px;
   }
   .WorkAbroadImg {
     width: 400px;
     height: auto;
-    margin-bottom: 60px;
+    margin-top: 5%;
+    margin-bottom: 20%;
   }
 
   .tramites {
@@ -612,7 +659,7 @@ iframe {
     }
 
     .etapas {
-        font-size: 14px;
+        font-size: 9px;
     }
 
     .tramites {
@@ -627,6 +674,9 @@ iframe {
 
       .Residencia {
         grid-area: Residencia;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
       }
       .ResidenciaH2 {
         font-weight: bold;
@@ -642,6 +692,8 @@ iframe {
     
       .StudyAbroad {
         grid-area: StudyAbroad;
+        margin-left: auto;
+        margin-right: auto;
       }
       .StudyAbroadH2 {
         font-weight: bold;
@@ -657,6 +709,8 @@ iframe {
       
       .Visa {
         grid-area: Visa;
+        margin-left: auto;
+        margin-right: auto;
       }
       .VisaH2 {
         font-weight: bold;
@@ -672,6 +726,8 @@ iframe {
     
       .WorkAbroad {
         grid-area: WorkAbroad;
+        margin-left: auto;
+        margin-right: auto;
       }
       .WorkAbroadH2 {
         font-weight: bold;
