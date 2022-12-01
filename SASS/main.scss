@@ -411,15 +411,27 @@ flex-direction: column;
 
             
 
-
+.formacion {
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 .formacionH2 {
     display: block;
     font-weight: bold;
     font-size: 30px;
     border: black 2px solid;
-background-color: rgb(113, 81, 10);
-text-align: center;
+    background-color: rgb(113, 81, 10);
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.qualifications {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .qualificationsH2 {
@@ -427,12 +439,19 @@ text-align: center;
     font-weight: bold;
     font-size: 30px;
     border: black 2px solid;
-background-color: rgb(113, 81, 10);
-text-align: center;
+    background-color: rgb(113, 81, 10);
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
 }
 
 .fotoDePerfil {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .seguridad {
@@ -859,6 +878,110 @@ iframe {
         width:95%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .Emilia {
+
+        border: #331800 2px solid;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: rgb(116, 116, 179);
+        margin-bottom: 10px;
+        margin-left: 20%;
+        margin-right: 20%;
+    
+    
+    .cuerpoEmilia {
+        text-align: left;
+        font-size: 12px;
+        margin-bottom: 15px; 
+        }
+    
+        
+    .firmaEmilia {
+        text-align: left;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 10px;
+        margin-bottom: 5px
+    }
+    
+    }
+    
+    .Lucia {
+        @extend .Emilia;
+        background-color: blue;
+        
+    
+        .cuerpoLucia {
+            @extend .cuerpoEmilia;
+        }
+    
+        .firmaLucia {
+            @extend .firmaEmilia;
+        }
+    }
+    
+    .Approach {
+        @extend .Emilia;
+        background-color:aquamarine;
+    
+        .miApproach {
+            @extend .cuerpoEmilia;
+        }
+    
+        .FirmaApproach {
+            @extend .firmaEmilia;
+        }
+    }
+
+    .fotoDePerfil {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    
+    .formacion {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 10px;
+
+        .formacionH2 {
+            display: block;
+            font-weight: bold;
+            font-size: 20px;
+            border: black 2px solid;
+            background-color: rgb(113, 81, 10);
+            text-align: center;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+       
+        }
+
+    }
+    
+    
+    .qualifications {
+        margin-left: 20%;
+        margin-right: 20%;
+
+        .qualificationsH2 {
+            display: block;
+            font-weight: bold;
+            font-size: 20px;
+            border: black 2px solid;
+            background-color: rgb(113, 81, 10);
+            text-align: center;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        
+        }
+
     }
          
 }
