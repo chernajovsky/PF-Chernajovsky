@@ -438,12 +438,11 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.formacion {
+.parrafo2 {
   margin-left: 20%;
   margin-right: 20%;
 }
-
-.formacionH2 {
+.parrafo2 .formacionH2 {
   display: block;
   font-weight: bold;
   font-size: 30px;
@@ -456,14 +455,16 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+}
+.parrafo2 .paragraph2 {
+  margin-bottom: 30px;
 }
 
 .qualifications {
   margin-left: 20%;
   margin-right: 20%;
 }
-
-.qualificationsH2 {
+.qualifications .qualificationsH2 {
   display: block;
   font-weight: bold;
   font-size: 30px;
@@ -476,7 +477,9 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
-  margin-top: 20px;
+}
+.qualifications .paragraph3 {
+  font-size: 20px;
 }
 
 .fotoDePerfil {
@@ -961,12 +964,11 @@ iframe {
     text-align: center;
     margin-bottom: 20px;
   }
-  .formacion {
+  .parrafo2 {
     margin-left: 20%;
     margin-right: 20%;
-    font-size: 10px;
   }
-  .formacion .formacionH2 {
+  .parrafo2 .formacionH2 {
     display: block;
     font-weight: bold;
     font-size: 20px;
@@ -979,6 +981,9 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+  }
+  .parrafo2 .paragraph2 {
+    font-size: 15px;
   }
   .qualifications {
     margin-left: 20%;
@@ -998,5 +1003,8 @@ iframe {
     margin-right: auto;
     margin-bottom: 10px;
     margin-top: 20px;
+  }
+  .qualifications .paragraph3 {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=main.css.map */

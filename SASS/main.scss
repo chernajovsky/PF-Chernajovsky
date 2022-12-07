@@ -410,42 +410,53 @@ flex-direction: column;
             }
 
             
-
-.formacion {
+.parrafo2 {
     margin-left: 20%;
     margin-right: 20%;
-}
+    
+    .formacionH2 {
+        display: block;
+        font-weight: bold;
+        font-size: 30px;
+        border: black 2px solid;
+        background-color: rgb(113, 81, 10);
+        text-align: center;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
 
-.formacionH2 {
-    display: block;
-    font-weight: bold;
-    font-size: 30px;
-    border: black 2px solid;
-    background-color: rgb(113, 81, 10);
-    text-align: center;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-}
+    .paragraph2{
+    margin-bottom: 30px;
+    }
+    
+    }
+
+        
 
 .qualifications {
     margin-left: 20%;
     margin-right: 20%;
-}
+
 
 .qualificationsH2 {
     display: block;
-    font-weight: bold;
-    font-size: 30px;
-    border: black 2px solid;
-    background-color: rgb(113, 81, 10);
-    text-align: center;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    margin-top: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        border: black 2px solid;
+        background-color: rgb(113, 81, 10);
+        text-align: center;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+
+}
+
+.paragraph3 {
+    font-size: 20px;
+}
 
 }
 
@@ -940,28 +951,30 @@ iframe {
         margin-bottom: 20px;
 
     }
-    
-    .formacion {
+
+
+    .parrafo2 {
         margin-left: 20%;
         margin-right: 20%;
-        font-size: 10px;
 
-        .formacionH2 {
-            display: block;
-            font-weight: bold;
-            font-size: 20px;
-            border: black 2px solid;
-            background-color: rgb(113, 81, 10);
-            text-align: center;
-            width: fit-content;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 10px;
-       
+    .formacionH2 {
+        display: block;
+        font-weight: bold;
+        font-size: 20px;
+        border: black 2px solid;
+        background-color: rgb(113, 81, 10);
+        text-align: center;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .paragraph2 {
+            font-size: 15px;
         }
 
     }
-    
     
     .qualifications {
         margin-left: 20%;
@@ -982,6 +995,14 @@ iframe {
         
         }
 
+        .paragraph3 {
+            font-size: 15px;
+        }
+
     }
          
+
+    
 }
+
+   
